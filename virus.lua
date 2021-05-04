@@ -60,8 +60,8 @@ if gpuTest then
 	    gpu.setBackground(0x000000)
 	    gpu.setForeground(0xffffff)
 
-	    gpu.set(math.floor(wC - 14), hC + 3, "The system has been destroyed")
-	    gpu.set(math.floor(wC - 15), hC + 5, "Press power button to shutdown")
+	    gpu.set(math.floor(wC - 14), hC + 3, "Произошла ошибка при прошивке Kolibra MineTab")
+	    gpu.set(math.floor(wC - 15), hC + 5, "Нажмите и удерживайте кнопку питания для выключения")
 
 	    while true do 
 	        computer.pullSignal(math.huge)
